@@ -2,8 +2,9 @@
 .idea/
 
 # ignore data set
-/data/*
+/data/usps/*
 !/data/usps/download_usps.sh
+/data/reuters/*
 !/data/reuters/get_data.sh
 
 # weights file

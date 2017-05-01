@@ -18,10 +18,10 @@ Use [IDEC-toy code](https://github.com/XifengGuo/IDEC-toy) for a quick start.
 `sudo pip install keras scikit-learn`   
 `sudo apt-get install git`
 2. Clone the code to local.   
-`git clone https://github.com/XifengGuo/IDEC.git`
+`git clone https://github.com/XifengGuo/IDEC.git IDEC`
 3. Prepare datasets.    
 
-        cd IDEC-toy/data/usps   
+        cd IDEC/data/usps   
         bash ./download_usps.sh   
         cd ../reuters  
         bash ./get_data.sh   
