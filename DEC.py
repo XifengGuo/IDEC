@@ -49,7 +49,7 @@ def cluster_acc(y_true, y_pred):
     return sum([w[i, j] for i, j in ind]) * 1.0 / y_pred.size
 
 
-def autoencoder(dims=[784, 500, 500, 2000, 10], act='relu'):
+def autoencoder(dims, act='relu'):
     """
     Fully connected auto-encoder model, symmetric.
     Arguments:
